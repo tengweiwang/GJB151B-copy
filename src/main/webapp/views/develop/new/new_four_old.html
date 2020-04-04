@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html xmlns:vertical-align="http://www.w3.org/1999/xhtml">
+<head>
+    <!-- 可直接使用框架提供的在线CSS文件 -->
+    <!-- 若要使用本地的文件，请注释掉下面两行标记 -->
+    <!--<link rel="stylesheet" href="http://newfront.free4inno.com/bootstrap/css/bootstrap.min.css">-->
+    <!--<link rel="stylesheet" href="http://newfront.free4inno.com/css/front.css">-->
+
+    <!-- 也可以使用下载到本地的CSS文件，请去掉下面两行标记的注释。其中localpath为本地路径。 -->
+    <!-- 若要使用在线文件，请注释掉下面两行标记 -->
+    <link rel="stylesheet" href="../../../statics/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../../statics/css/front.css">
+    <link rel="stylesheet" href="../../../statics/css/develop/new/new.css">
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body class="front-body">
+<div class="front-inner">
+    <nav class="navbar navbar-default navbar-fixed-top front-nav">
+        <div class="container">
+            <div>
+                <!-- 品牌图片大小为150 * 30：宽度不定，高度固定30px -->
+                <!--<div class="nav-brand"><a href="#"><img src="/bootstrap-front/dev/img/logo.png" alt="brand" class="img-responsive"/></a></div>-->
+                <!-- -->
+                <div class="nav-brand" style="font-size: 22px"><a href="#">GJB151B研制要求管理系统</a></div>
+            </div>
+            <div class="nav-collapse collapse" id="nav-collapse-demo">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">项目</a></li>
+                    <li class="front-active"><a href="#">新建</a></li>
+                    <li><a href="#">校对</a></li>
+                    <li><a href="#">审核</a></li>
+                    <li><a href="#">批准</a></li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">登录</a></li>
+                    <li><a href="#">注册</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <!--<div class="row">-->
+        <div class="panel panel-default front-panel">
+            <div class="panel-heading" style="text-align: center;">
+                <span class="panel-title">分系统/设备基本信息</span>
+            </div>
+            <div class="panel-body">
+                <table class="table">
+                    <tr>
+                        <td style="width: 20% ">分系统/设备名称</td>
+                        <td><input type="text" class="form-control radius" readonly value="XXX分系统(自动生成只读不可编辑）"></td>
+                    </tr>
+                    <tr>
+                        <td style="width: 20% ">型号</td>
+                        <td><input type="text" class="form-control radius" readonly value="型号信息(自动生成只读不可编辑）"></td>
+                    </tr>
+                    <tr>
+                        <td style="width: 20% ">串号</td>
+                        <td><input type="text" class="form-control radius" readonly value="串号信息(自动生成只读不可编辑）"></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="panel-heading" style="text-align: center;">
+                <span class="panel-title">分系统/设备特性</span>
+            </div>
+            <div class="panel-body">
+                <table class="table">
+                    <tr>
+                        <td>设备属性</td>
+                        <td>
+                            <select class="form-control">
+                                <option>用频</option>
+                                <option>非用频</option>
+                            </select>
+                        </td>
+                        <td>任务关键设备</td>
+                        <td>
+                            <select class="form-control">
+                                <option>是</option>
+                                <option>否</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>安装方式</td>
+                        <td>
+                            <select class="form-control">
+                                <option>台式</option>
+                                <option>机架安装</option>
+                                <option>甲板固定</option>
+                                <option>壁挂</option>
+                                <option>手持</option>
+                            </select>
+                        </td>
+                        <td>特殊设备</td>
+                        <td>
+                            <select class="form-control">
+                                <option>无</option>
+                                <option>（水面舰船和潜艇平台可选）工作频率低于100kHz，灵敏度优于1V</option>
+                                <option>（陆军地面可选）扫雷和探雷的机动车辆</option>
+                                <option>（海军飞机可选）反潜机</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="4" align="center" style="border: 1px solid transparent;">安装平台特性</td>
+                    </tr>
+                    <tr>
+                        <td>EMP加固措施</td>
+                        <td>
+                            <select class="form-control">
+                                <option>有</option>
+                                <optison>无</optison>
+                            </select>
+                        </td>
+                        <td>静电威胁</td>
+                        <td>
+                            <select class="form-control">
+                                <option>是</option>
+                                <option>否</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>地线</td>
+                        <td>
+                            <select class="form-control">
+                                <option>有</option>
+                                <option>无</option>
+                            </select>
+                        </td>
+                        <td>供电方式</td>
+                        <td>
+                            <select class="form-control">
+                                <option>直流</option>
+                                <option>交流50Hz</option>
+                                <option>交流400Hz</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="panel-body">
+                <div class="col-lg-offset-8 col-lg-4 text-right" style="padding-right: 10px;">
+                    <button class="btn btn-primary">上一页</button>
+                    <button class="btn btn-primary">下一页</button>
+                </div>
+            </div>
+        </div>
+
+        <!--</div>-->
+    </div>
+
+    <footer class="footer-default">
+        <div class="text-center">Copyright © All Right Reserved by BUPT(2018)</div>
+    </footer>
+</div>
+<!-- 可直接使用框架提供的在线js文件 -->
+<!-- 若要使用本地的文件，请注释掉下面三行标记 -->
+<script src="http://newfront.free4inno.com/js/jquery/jquery.min.js"></script>
+<script src="http://newfront.free4inno.com/bootstrap/js/bootstrap.min.js"></script>
+<script src="http://newfront.free4inno.com/js/plugin/front.js"></script>
+</body>

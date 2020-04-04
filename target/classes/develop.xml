@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "struts-2.3.dtd">
+
+<struts>
+    <package name="new" namespace="/new" extends="default,struts-default,json-default"> <!-- 这里暂时改成继承了struts-default-->
+        <action name="new_three">
+            <result>views/develop/new/new_three.jsp</result>
+        </action>
+        <action name="new_four">
+            <result>views/develop/new/new_four.jsp</result>
+        </action>
+        <action name="new_five">
+            <result>views/develop/new/new_five.jsp</result>
+        </action>
+        <action name="new_six">
+            <result>views/develop/new/new_six.jsp</result>
+        </action>
+        <action name="new">
+            <result>views/develop/new/new.jsp</result>
+        </action>
+
+        <!--todo 重写一下result回传方式-->
+        <action name="getRequiredSubject" class="action.GetRequiredSubjectAction" method="getSubject">
+            <result name="success" type="json">
+                <param name="root">requiredSubjectResponse</param>
+            </result>
+        </action>
+
+        <action name="saveImg" class="action.NewAction" method="saveImg">
+            <result name="success" type="json">
+                <param name="root">saveImgResponse</param>
+            </result>
+        </action>
+        <action name="uploadImg" class="action.NewAction" method="uploadImg">
+            <result name="success" type="json">
+                <param name="root">uploadImgResponse</param>
+            </result>
+        </action>
+        <action name="getLimitValuesPic" class="action.StandardLimitValuesAction" method="getLimitValuesPic">
+            <result name="success" type="json">
+                <param name="root">stdLimitValuesResponse</param>
+            </result>
+        </action>
+        <action name="getLimitValuesText" class="action.StandardLimitValuesAction" method="getLimitValuesText">
+            <result name="success" type="json">
+                <param name="root">stdTextResponse</param>
+                <param name="enableGZIP">true</param>
+            </result>
+        </action>
+        <action name="getLimitValuesBiPic" class="action.StandardLimitValuesAction" method="getLimitValuesBiPic">
+            <result name="success" type="json">
+                <param name="root">biPicResponse</param>
+            </result>
+        </action>
+
+        <action name="saveNewProject" class="action.SaveNewProjectAction" method="saveNewProject">
+            <result name="success" type="json">
+                <param name="root">saveNewResponse</param>
+            </result>
+        </action>
+
+        <action name="updateProjectStatus" class="action.SaveNewProjectAction" method="updateProjectStatus">
+            <result name="success" type="json">
+                <param name="root">updateProjectResponse</param>
+            </result>
+        </action>
+    </package>
+
+
+    <package name="manage" namespace="/manage" extends="default,json-default">
+        <action name="changePassword" class="action.ManageAction" method="changePassword">
+            <result name="success" type="json" >
+                <param name="root">changePasswordResponse</param>
+            </result>
+        </action>
+    </package>
+
+    <package name="modify" namespace="/modify" extends="default,json-default">
+        <action name="findProjectById" class="action.ModifyProjectAction" method="findProjectById">
+            <result name="success" type="json">
+                <param name="root">modifyProjectResponse</param>
+                <param name="enableGZIP">true</param>
+            </result>
+        </action>
+    </package>
+    <package name="project" namespace="/project" extends="default,json-default" >
+        <action name="findproject" class="action.FindProjectAction" method="showProject">
+            <result name="success" type="json">
+                <param name="root">projectResultResponse</param>
+            </result>
+        </action>
+    </package>
+
+
+    <!--<package name="test" namespace="/test" extends="default,json-default">-->
+        <!--<action name="testAction" class="action.TestAction" method="testAction">-->
+            <!--<result name="success" type="json">-->
+                <!--<param name="root">testResponse</param>-->
+                <!--&lt;!&ndash;<param name="enableGZIP">true</param>&ndash;&gt;-->
+            <!--</result>-->
+        <!--</action>-->
+    <!--</package>-->
+</struts>

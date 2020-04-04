@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="entity.UserInfoEntity" table="user_info" schema="gjb151b">
+        <id name="userId">
+            <column name="user_id" precision="11"/>
+        </id>
+        <property name="userName">
+            <column name="user_name" unique="true" length="25"/>
+        </property>
+        <property name="userPassword">
+            <column name="user_password" length="50"/>
+        </property>
+        <property name="userLevel">
+            <column name="user_level" precision="11"/>
+        </property>
+        <property name="userNew">
+            <column name="user_new" length="500"/>
+        </property>
+        <property name="userProofread">
+            <column name="user_proofread" length="500"/>
+        </property>
+        <property name="userAudit">
+            <column name="user_audit" length="500"/>
+        </property>
+        <property name="userAuthorize">
+            <column name="user_authorize" length="500"/>
+        </property>
+        <property name="userCreateTime" update="false">
+            <column name="user_create_time" precision="-1"/>
+        </property>
+        <property name="userRemark">
+            <column name="user_remark" length="500"/>
+        </property>
+    </class>
+</hibernate-mapping>

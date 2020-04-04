@@ -1,0 +1,35 @@
+2019-01-25 at 09:12:23:480 CST ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper 'Line-' 129 logExceptions - Lock wait timeout exceeded; try restarting transaction
+2019-01-25 at 09:12:51:579 CST ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper 'Line-' 129 logExceptions - Lock wait timeout exceeded; try restarting transaction
+2019-01-25 at 09:12:58:645 CST ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper 'Line-' 129 logExceptions - Lock wait timeout exceeded; try restarting transaction
+2019-01-25 at 09:13:00:677 CST ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper 'Line-' 129 logExceptions - Lock wait timeout exceeded; try restarting transaction
+2019-01-25 at 09:13:05:812 CST ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper 'Line-' 129 logExceptions - Lock wait timeout exceeded; try restarting transaction
+2019-01-25 at 09:13:05:813 CST ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper 'Line-' 129 logExceptions - Lock wait timeout exceeded; try restarting transaction
+2019-01-25 at 09:13:08:846 CST ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper 'Line-' 129 logExceptions - Lock wait timeout exceeded; try restarting transaction
+2019-01-25 at 09:13:12:982 CST ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper 'Line-' 129 logExceptions - Lock wait timeout exceeded; try restarting transaction
+2019-01-25 at 09:13:14:108 CST ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper 'Line-' 129 logExceptions - Lock wait timeout exceeded; try restarting transaction
+2019-01-25 at 09:13:42:159 CST ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper 'Line-' 129 logExceptions - Lock wait timeout exceeded; try restarting transaction
+2019-01-25 at 09:13:49:173 CST ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper 'Line-' 129 logExceptions - Lock wait timeout exceeded; try restarting transaction
+2019-01-25 at 09:13:51:278 CST ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper 'Line-' 129 logExceptions - Lock wait timeout exceeded; try restarting transaction
+2019-01-25 at 09:13:56:397 CST ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper 'Line-' 129 logExceptions - Lock wait timeout exceeded; try restarting transaction
+2019-01-25 at 09:13:56:398 CST ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper 'Line-' 129 logExceptions - Lock wait timeout exceeded; try restarting transaction
+2019-01-25 at 09:13:59:470 CST ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper 'Line-' 129 logExceptions - Lock wait timeout exceeded; try restarting transaction
+2019-01-25 at 09:14:04:487 CST ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper 'Line-' 129 logExceptions - Lock wait timeout exceeded; try restarting transaction
+2019-01-25 at 09:14:05:436 CST ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper 'Line-' 129 logExceptions - Lock wait timeout exceeded; try restarting transaction
+2019-01-25 at 09:14:33:453 CST ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper 'Line-' 129 logExceptions - Lock wait timeout exceeded; try restarting transaction
+2019-01-25 at 09:14:40:531 CST ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper 'Line-' 129 logExceptions - Lock wait timeout exceeded; try restarting transaction
+2019-01-25 at 09:14:42:580 CST ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper 'Line-' 129 logExceptions - Lock wait timeout exceeded; try restarting transaction
+2019-01-25 at 09:14:47:617 CST ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper 'Line-' 129 logExceptions - Lock wait timeout exceeded; try restarting transaction
+2019-01-25 at 09:15:24:776 CST ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper 'Line-' 129 logExceptions - Lock wait timeout exceeded; try restarting transaction
+2019-01-25 at 09:15:31:833 CST ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper 'Line-' 129 logExceptions - Lock wait timeout exceeded; try restarting transaction
+2019-01-25 at 09:15:33:881 CST ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper 'Line-' 129 logExceptions - Lock wait timeout exceeded; try restarting transaction
+2019-01-25 at 09:15:38:899 CST ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper 'Line-' 129 logExceptions - Lock wait timeout exceeded; try restarting transaction
+2019-01-25 at 09:16:15:867 CST ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper 'Line-' 129 logExceptions - Lock wait timeout exceeded; try restarting transaction
+2019-02-27 at 11:49:06:860 CST ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper 'Line-' 129 logExceptions - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2019-02-27 at 11:49:11:940 CST ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper 'Line-' 129 logExceptions - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2019-02-27 at 15:21:09:787 CST ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper 'Line-' 129 logExceptions - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.

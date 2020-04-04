@@ -1,0 +1,97 @@
+2020-03-10 at 17:08:28:453 CST INFO  org.hibernate.cfg.Environment 'Line-' 317 buildBytecodeProvider - HHH000021: Bytecode provider name : javassist
+2020-03-10 at 17:08:28:638 CST INFO  org.hibernate.annotations.common.reflection.java.JavaReflectionManager 'Line-' 66 <clinit> - HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2020-03-10 at 17:08:29:333 CST WARN  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 'Line-' 76 configure - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2020-03-10 at 17:08:29:338 CST INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 'Line-' 149 buildCreator - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://127.0.0.1:3306/gjb151b?useSSL=true]
+2020-03-10 at 17:08:29:338 CST INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 'Line-' 155 buildCreator - HHH000046: Connection properties: {useUnicode=true, user=root, password=0000, characterEncoding=UTF-8, zeroDateTimeBehavior=convertToNull}
+2020-03-10 at 17:08:29:339 CST INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 'Line-' 163 buildCreator - HHH000006: Autocommit mode: false
+2020-03-10 at 17:08:29:340 CST INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl 'Line-' 85 configure - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-03-10 at 17:08:29:587 CST INFO  org.hibernate.dialect.Dialect 'Line-' 154 <init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-03-10 at 17:08:29:678 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:680 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:680 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:681 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:681 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:682 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:682 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:683 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:683 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:684 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:687 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:688 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:688 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:689 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:689 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:690 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:690 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:691 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:691 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:692 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:692 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:693 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:693 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:694 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:694 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:695 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:695 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:696 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:696 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:697 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:697 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:698 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:698 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:699 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:699 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:700 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:701 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:701 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:702 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:702 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:702 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:703 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:703 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:704 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:704 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:705 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:705 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:706 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:706 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:707 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:707 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:707 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:708 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:708 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:709 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:709 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:710 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:710 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:711 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:711 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:712 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:712 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:713 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:713 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:713 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:714 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:714 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:715 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:715 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:716 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:716 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:716 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:717 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:717 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:718 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:718 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:719 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:719 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:719 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:720 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:720 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:721 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:722 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:722 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:722 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:723 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:29:723 CST WARN  org.hibernate.boot.model.source.internal.hbm.ModelBinder 'Line-' 2441 bindProperty - HHH90000003: Use of DOM4J entity-mode is considered deprecated
+2020-03-10 at 17:08:30:106 CST INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate 'Line-' 101 execute - HHH000228: Running hbm2ddl schema update
+2020-03-10 at 17:08:30:351 CST INFO  org.hibernate.hql.internal.QueryTranslatorFactoryInitiator 'Line-' 47 initiateService - HHH000397: Using ASTQueryTranslatorFactory

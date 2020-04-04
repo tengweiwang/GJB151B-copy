@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+    <session-factory>
+        <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+        <!--<property name="connection.url">jdbc:mysql://10.109.17.3:3307/gjb151b?useSSL=true</property>-->
+        <property name="connection.url">jdbc:mysql://127.0.0.1:3306/gjb151b?useSSL=true</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="connection.password">qwert6</property>
+        <!--<property name="connection.password">chenzhehao329</property>-->
+        <!--<property name="connection.password">0000</property>-->
+        <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+        <property name="connection.useUnicode">true</property>
+        <property name="connection.characterEncoding">UTF-8</property>
+        <property name="hibernate.connection.zeroDateTimeBehavior">convertToNull</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQL5InnoDBDialect</property>
+        <!-- c3p0链接池 -->
+        <!--<property name="hibernate.connection.provider_class">org.hibernate.c3p0.internal.C3P0ConnectionProvider</property>-->
+        <!--<property name="c3p0.min_size">5</property>-->
+        <!--<property name="c3p0.max_size">30</property>-->
+        <!--<property name="c3p0.time_out">1800</property>-->
+        <!--<property name="c3p0.max_statement">50</property>-->
+
+        <!-- 输出sql语句 -->
+        <property name="hibernate.show_sql">true</property>
+        <!-- 输出sql语句格式 -->
+        <property name="hibernate.format_sql">true</property>
+        <!-- 可以创建或者更新表 -->
+        <property name="hibernate.hbm2ddl.auto">update</property>
+        <property name="current_session_context_class">thread</property>
+
+        <!-- 映射文件 -->
+        <mapping resource="hbm/UserInfoEntity.xml"/>
+        <mapping resource="hbm/ManageSysDevelopEntity.xml"/>
+        <mapping resource="hbm/ManageSysPdfEntity.xml"/>
+    </session-factory>
+</hibernate-configuration>

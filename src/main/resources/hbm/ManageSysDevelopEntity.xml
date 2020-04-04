@@ -1,0 +1,221 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="entity.ManageSysDevelopEntity" table="manage_sys_develop" schema="gjb151b" dynamic-update="true"> <!--可再加一个select-before-update="true"保证dynamic-update操作生效，或者更新的时候用merge不用update-->
+        <id name="devId">
+            <column name="dev_id" precision="11"/>
+        </id>
+        <property name="devItemid">
+            <column name="dev_itemid"/>
+        </property>
+        <property name="devName">
+            <column name="dev_name" length="50"/>
+        </property>
+        <property name="devSubsysEqp">
+            <column name="dev_subsys_eqp" precision="11"/>
+        </property>
+        <property name="devSubsysEqpName">
+            <column name="dev_subsys_eqp_name" length="50"/>
+        </property>
+        <property name="devSubsysEqpModel">
+            <column name="dev_subsys_eqp_model" length="50"/>
+        </property>
+        <property name="devSubsysEqpNum">
+            <column name="dev_subsys_eqp_num" length="50"/>
+        </property>
+        <property name="devSupplier">
+            <column name="dev_supplier" length="50"/>
+        </property>
+        <property name="devPrimaryPlatform">
+            <column name="dev_primary_platform" precision="11"/>
+        </property>
+        <property name="devSecondaryPlatform">
+            <column name="dev_secondary_platform" precision="11"/>
+        </property>
+        <property name="devAttribute">
+            <column name="dev_attribute" precision="11"/>
+        </property>
+        <property name="devKey">
+            <column name="dev_key" precision="11"/>
+        </property>
+        <property name="devInstall">
+            <column name="dev_install" precision="11"/>
+        </property>
+        <property name="devGnd">
+            <column name="dev_GND" precision="11"/>
+        </property>
+        <property name="devSpecial">
+            <column name="dev_special" precision="11"/>
+        </property>
+        <property name="devInterport">
+            <column name="dev_interport" precision="11"/>
+        </property>
+        <property name="devLowsensitive">
+            <column name="dev_lowsensitive" precision="11"/>
+        </property>
+        <property name="devEmp">
+            <column name="dev_emp" precision="11"/>
+        </property>
+        <property name="devStatic">
+            <column name="dev_static" precision="11"/>
+        </property>
+        <property name="devPowerport">
+            <column name="dev_powerport" />
+        </property>
+        <property name="devPowersupply">
+            <column name="dev_powersupply" />
+        </property>
+        <property name="devVoltage">
+            <column name="dev_voltage" />
+        </property>
+        <property name="devVoltagenum">
+            <column name="dev_voltagenum" />
+        </property>
+        <property name="devAntenna">
+            <column name="dev_antenna" precision="11"/>
+        </property>
+        <property name="devReceiveLaunch">
+            <column name="dev_receive_launch" precision="11"/>
+        </property>
+        <property name="devModulation">
+            <column name="dev_modulation" precision="11"/>
+        </property>
+        <property name="devFreqOptional">
+            <column name="dev_freq_optional" />
+        </property>
+        <property name="devFreqFhLow">
+            <column name="dev_freq_FH_low" />
+        </property>
+        <property name="devFreqFhMid">
+            <column name="dev_freq_FH_mid" />
+        </property>
+        <property name="devFreqFhHigh">
+            <column name="dev_freq_FH_high" />
+        </property>
+        <property name="devFreqDsss">
+            <column name="dev_freq_DSSS" />
+        </property>
+        <property name="devCe101">
+            <column name="dev_CE101" />
+        </property>
+        <property name="devCe102">
+            <column name="dev_CE102" />
+        </property>
+        <property name="devCe106">
+            <column name="dev_CE106" />
+        </property>
+        <property name="devCe107">
+            <column name="dev_CE107" />
+        </property>
+        <property name="devCs101">
+            <column name="dev_CS101" />
+        </property>
+        <property name="devCs102">
+            <column name="dev_CS102" />
+        </property>
+        <property name="devCs103">
+            <column name="dev_CS103" />
+        </property>
+        <property name="devCs104">
+            <column name="dev_CS104" />
+        </property>
+        <property name="devCs105">
+            <column name="dev_CS105" />
+        </property>
+        <property name="devCs106">
+            <column name="dev_CS106" />
+        </property>
+        <property name="devCs109">
+            <column name="dev_CS109" />
+        </property>
+        <property name="devCs112">
+            <column name="dev_CS112" />
+        </property>
+        <property name="devCs114">
+            <column name="dev_CS114" />
+        </property>
+        <property name="devCs115">
+            <column name="dev_CS115" />
+        </property>
+        <property name="devCs116">
+            <column name="dev_CS116" />
+        </property>
+        <property name="devRe101">
+            <column name="dev_RE101" />
+        </property>
+        <property name="devRe102">
+            <column name="dev_RE102" />
+        </property>
+        <property name="devRe103">
+            <column name="dev_RE103" />
+        </property>
+        <property name="devRs101">
+            <column name="dev_RS101" />
+        </property>
+        <property name="devRs103">
+            <column name="dev_RS103" />
+        </property>
+        <property name="devRs105">
+            <column name="dev_RS105" />
+        </property>
+        <property name="projectList">
+            <column name="project_list" />
+        </property>
+        <property name="devAdviceProofread">
+            <column name="dev_advice_proofread" />
+        </property>
+        <property name="devAdviceAudit">
+            <column name="dev_advice_audit" />
+        </property>
+        <property name="devAdviceAuthorize">
+            <column name="dev_advice_authorize" />
+        </property>
+        <property name="devCreateTime" update="false">
+            <column name="dev_create_time" precision="-1"/>
+        </property>
+        <property name="devNewTime">
+            <column name="dev_new_time" precision="-1"/>
+        </property>
+        <property name="devModifyTime">
+            <column name="dev_modify_time" precision="-1"/>
+        </property>
+        <property name="devProofreadTime">
+            <column name="dev_proofread_time" precision="-1"/>
+        </property>
+        <property name="devAuditTime">
+            <column name="dev_audit_time" precision="-1"/>
+        </property>
+        <property name="devAuthorizeTime">
+            <column name="dev_authorize_time" precision="-1"/>
+        </property>
+        <property name="devUpdateTime">
+            <column name="dev_update_time" precision="-1"/>
+        </property>
+        <property name="devOpeator">
+            <column name="dev_opeator" precision="11"/>
+        </property>
+        <property name="devStatus">
+            <column name="dev_status" precision="11"/>
+        </property>
+        <property name="devFreSelect">
+            <column name="dev_fre_select" precision="11"/>
+        </property>
+        <property name="devSubsysSource">
+            <column name="dev_subsys_source"/>
+        </property>
+        <property name="devSubsysComRef">
+            <column name="dev_subsys_com_ref"/>
+        </property>
+        <property name="devSubsysQuantity">
+            <column name="dev_subsys_quantity"/>
+        </property>
+        <property name="devSubsysEnvironment">
+            <column name="dev_subsys_environment"/>
+        </property>
+        <property name="devPowername">
+            <column name="dev_powername"/>
+        </property>
+    </class>
+</hibernate-mapping>

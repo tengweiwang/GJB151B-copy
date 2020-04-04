@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "struts-2.3.dtd">
+
+<struts>
+    <!-- 支持动态调用 -->
+    <constant name="struts.enable.DynamicMethodInvocation" value="true"/>
+    <!-- 设置开发模式 -->
+    <constant name="struts.devMode" value="true"/>
+    <!--&lt;!&ndash; 静态资源不拦截 &ndash;&gt;-->
+    <constant name="struts.action.excludePattern" value="/static/.*?" />
+    <!-- 研制要求管理系统配置 -->
+    <include file="develop.xml"/>
+
+    
+    <package name="default" extends="struts-default">
+        <interceptors>
+            <interceptor name="loginInterceptor" class="utils.LoginInterceptor"/>
+            <interceptor-stack name="authorityStack">
+                <interceptor-ref name="loginInterceptor">
+                    <!--<param name="excludeMethods">login</param>-->
+                </interceptor-ref>
+                <interceptor-ref name="defaultStack"></interceptor-ref>
+            </interceptor-stack>
+        </interceptors>
+
+        <default-interceptor-ref name="authorityStack"/>
+
+        <!-- 全局转向配置 -->
+        <global-results>
+            <result name="login">views/login.jsp</result>
+        </global-results>
+    </package>
+
+    <!-- action配置 -->
+    <package name="basicstruts" extends="default,struts-default">
+        <action name="login">
+            <result>views/login.jsp</result>
+        </action>
+        <action name="index">
+            <result>index.html</result>
+        </action>
+    </package>
+
+    <package name="login" namespace="/login" extends="default,json-default">
+        <action name="checkUser" class="action.LoginAction" method="checkUser">
+            <result name="success" type="json">
+                <param name="root">checkUserResponse</param>
+            </result>
+        </action>
+        <action name="logout" class="action.LoginAction" method="logout">
+            <result name="success">/views/login.jsp</result>
+        </action>
+    </package>
+
+    <package name="admin" namespace="/admin" extends="default,json-default" >
+        <action name="findAllUser" class="action.AdminAction" method="findAll">
+            <result name="success" type="json">
+                <param name="root">findAllResponse</param>
+            </result>
+        </action>
+
+        <action name="addUser"  class="action.AdminAction" method="addUser">
+            <result name="success" type="json">
+                <param name="root">addUserResponse</param>
+            </result>
+        </action>
+
+        <action name="deleteUser" class="action.AdminAction" method="deleteUser">
+            <result name="success" type="json">
+                <param name="root">deleteUserResponse</param>
+            </result>
+        </action>
+
+        <action name="updateUser"  class="action.AdminAction" method="updateUser">
+            <result name="success" type="json">
+                <param name="root">updateUserResponse</param>
+            </result>
+        </action>
+        <action name="resetPassword"  class="action.AdminAction" method="resetPassword">
+            <result name="success" type="json">
+                <param name="root">resetPasswordResponse</param>
+            </result>
+        </action>
+        <action name="findAllItem" class="action.ItemAction" method="findAllItem">
+            <result name="success" type="json">
+                <param name="root">findAllItemResponse</param>
+            </result>
+        </action>
+        <action name="addItem"  class="action.ItemAction" method="addItem">
+            <result name="success" type="json">
+                <param name="root">addItemResponse</param>
+            </result>
+        </action>
+
+        <action name="deleteItem"  class="action.ItemAction" method="deleteItem">
+            <result name="success" type="json">
+                <param name="root">deleteItemResponse</param>
+            </result>
+        </action>
+
+        <action name="exportItem" class="action.ItemAction" method="exportItem">
+            <result name="success" type="json">
+                <param name="root">exportItemResponse</param>
+            </result>
+        </action>
+
+        <action name="updateOperator"  class="action.ItemAction" method="updateOperator">
+            <result name="success" type="json">
+                <param name="root">updateItemResponse</param>
+            </result>
+        </action>
+
+        <action name="updateItemName"  class="action.ItemAction" method="updateItemName">
+            <result name="success" type="json">
+                <param name="root">updateItemNameResponse</param>
+            </result>
+        </action>
+    </package>
+
+    <package name="manage" namespace="/manage" extends="default,json-default" >
+
+        <action name="changePassword"  class="action.ManageAction" method="updateUser">
+            <result name="success" type="chain">/views/login.jsp</result>
+        </action>
+
+    </package>
+
+</struts>
